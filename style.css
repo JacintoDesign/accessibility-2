@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Improved text contrast */
+  background-color: #f8f8f8; /* Light background for better readability */
+}
+
+.header {
+  background-color: #005a9c; /* Darker background for better contrast */
+  padding: 10px;
+  color: white;
+}
+
+nav.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: white; /* Ensuring readable navigation links */
+  text-decoration: none; /* Removing underline from links */
+  padding: 5px 10px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #004080; /* Visual feedback for hover and focus */
+}
+
+main {
+  padding: 20px;
+}
+
+.banner h1 {
+  color: #005a9c; /* Better contrast for heading */
+}
+
+.service {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white; /* Background for service blocks */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #fff; /* Ensuring footer links are readable */
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline; /* Visual feedback for hover and focus */
+}
+
+/* Accessibility Improvements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #005a9c; /* Highlight focus for keyboard navigation */
+}
+
+label {
+  display: block; /* Making labels block level for better structure */
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width for form elements */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #005a9c; /* Stylish button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004080;
+}
